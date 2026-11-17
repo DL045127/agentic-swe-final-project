@@ -1,0 +1,10 @@
+# Pinned dependencies for Natural-Language Photo Search
+# NOTE: versions below are placeholders to be pinned at E0 (see docs/ATTRIBUTION.md).
+# Pin exact versions with `pip freeze` once the environment is verified, and
+# record the CLIP model revision in docs/ATTRIBUTION.md.
+
+torch
+transformers
+pillow
+numpy
+streamlit

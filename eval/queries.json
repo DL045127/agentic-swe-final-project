@@ -1,0 +1,22 @@
+{
+  "_comment": "15 evaluation queries. Committed BEFORE tuning. Each scored query must have >= 5 relevant images in labels.json so precision@5 is not capped. Agents must not modify this file or labels.json.",
+  "precision_at_k": 5,
+  "aggregation": "mean of per-query precision@5 over all queries",
+  "queries": [
+    { "id": "q01", "text": "a dog on a beach" },
+    { "id": "q02", "text": "friends eating outside" },
+    { "id": "q03", "text": "TODO" },
+    { "id": "q04", "text": "TODO" },
+    { "id": "q05", "text": "TODO" },
+    { "id": "q06", "text": "TODO" },
+    { "id": "q07", "text": "TODO" },
+    { "id": "q08", "text": "TODO" },
+    { "id": "q09", "text": "TODO" },
+    { "id": "q10", "text": "TODO" },
+    { "id": "q11", "text": "TODO" },
+    { "id": "q12", "text": "TODO" },
+    { "id": "q13", "text": "TODO" },
+    { "id": "q14", "text": "TODO" },
+    { "id": "q15", "text": "TODO" }
+  ]
+}

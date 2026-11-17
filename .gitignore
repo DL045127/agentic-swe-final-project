@@ -1,0 +1,37 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Generated index artifacts ----
+# Embeddings/manifests are regenerated from images; don't commit them.
+# NOTE: if a pre-built index is needed for an OFFLINE demo, force-add it
+# explicitly (git add -f index/...) and remove the ignore for that file.
+index/
+*.npy
+
+# ---- Model / HF caches ----
+.cache/
+hf_cache/
+*.bin
+*.safetensors
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ---- Logs / temp ----
+*.log
+.tmp/

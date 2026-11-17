@@ -1,0 +1,20 @@
+{
+  "_comment": "Ground-truth relevance labels. HUMAN-OWNED and OFF-LIMITS TO AGENTS. Committed BEFORE tuning or evaluating. For each query id, list the relative paths of images considered relevant. Each scored query must have >= 5 relevant images.",
+  "labels": {
+    "q01": [],
+    "q02": [],
+    "q03": [],
+    "q04": [],
+    "q05": [],
+    "q06": [],
+    "q07": [],
+    "q08": [],
+    "q09": [],
+    "q10": [],
+    "q11": [],
+    "q12": [],
+    "q13": [],
+    "q14": [],
+    "q15": []
+  }
+}
